@@ -2,48 +2,47 @@
   UTM Builder for Google Analytics
 </h1>
 
-## 🚀 Quick start
+<p align="center">
 
-1.  **Create a Gatsby site.**
+ <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
+   <a href="https://app.netlify.com/sites/utmbuilderga/deploys"><img src="https://api.netlify.com/api/v1/badges/1023c9a0-22af-4551-bc10-eca019f39b21/deploy-status"></a>
+</p>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+<p align="center">
+   <a href="https://sonarcloud.io/dashboard?id=bhuvanbalasubramanian_utmbuilder"><img src="https://sonarcloud.io/api/project_badges/measure?project=bhuvanbalasubramanian_utmbuilder&metric=sqale_rating"></a>
+   <a href="https://sonarcloud.io/dashboard?id=bhuvanbalasubramanian_utmbuilder"><img src="https://sonarcloud.io/api/project_badges/measure?project=bhuvanbalasubramanian_utmbuilder&metric=reliability_rating"></a>
+      <a href="https://sonarcloud.io/dashboard?id=bhuvanbalasubramanian_utmbuilder"><img src="https://sonarcloud.io/api/project_badges/measure?project=bhuvanbalasubramanian_utmbuilder&metric=security_rating"></a>
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+</p>
 
-2.  **Start developing.**
+<div align="center">
+    <img src='./static/utmbuilder-snapshot.png'/>
+</div>
 
-    Navigate into your new site’s directory and start it up.
+## About
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+UTM codes used to track the website traffic where its coming from and it is tracked in Google Analytics. In a single click, you can generate the UTM urls and share it in campaign sites.
 
-3.  **Open the code and start customizing!**
+## Development
 
-    Your site is now running at http://localhost:8000!
+Clone and install 
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+```shell
+git clone git@github.com:bhuvanbalasubramanian/utmbuilder
+cd utmbuilder
+npm install
+```
 
-4.  **Learn more**
+Run a development server.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```shell
+npm run develop
+```
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Author
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Bhuvaneswaran Balasubramanian](https://www.bhuvaneswaran.com)
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## License
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+This project is open source and available under the [MIT License](LICENSE).
