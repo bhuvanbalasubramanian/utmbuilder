@@ -166,7 +166,7 @@ export const UTMBuilder = () => {
           </form>
           <div className="row mb-3 align-items-center mt-4 text-center">
               <h3 className="mb-4">Generated UTM campaign URL</h3>
-              <p className='small'>Share the below url in social media, ad campaign, and it is tracked in Google Analytics.</p>
+              <p className='small'>Share the below url in social media, ad campaign, and view the traffic in Google Analytics.</p>
              
             <textarea className="form-control" defaultValue={utmlink} />
 
