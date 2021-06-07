@@ -23,14 +23,14 @@
 
 UTM codes used to track the website traffic where its coming from and it is tracked in Google Analytics. In a single click, you can generate the UTM urls and share it in campaign sites.
 
-[Demo](https://utmbuilderga.netlify.app)
+**[Demo](https://utmbuilderga.netlify.app)**
 
 ## Development
 
 Clone and install 
 
 ```shell
-git clone git@github.com:bhuvanbalasubramanian/utmbuilder
+git clone https://github.com/bhuvanbalasubramanian/utmbuilder.git
 cd utmbuilder
 npm install
 ```
