@@ -25,13 +25,23 @@ UTM codes used to track the website traffic where its coming from and it is trac
 
 **[Demo](https://utmbuilderga.netlify.app)**
 
+## Tech Stack
+
+  - React
+  - Gatsby
+  - Javascript
+  - HTML
+  - CSS3
+
 ## Development
 
 Clone and install 
 
 ```shell
 git clone https://github.com/bhuvanbalasubramanian/utmbuilder.git
+
 cd utmbuilder
+
 npm install
 ```
 
@@ -39,6 +49,12 @@ Run a development server.
 
 ```shell
 npm run develop
+```
+
+Build the project.
+
+```shell
+npm run build
 ```
 
 ## Author
